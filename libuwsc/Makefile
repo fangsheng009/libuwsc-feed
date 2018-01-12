@@ -33,7 +33,8 @@ define Package/libuwsc/default
   SECTION:=libs
   CATEGORY:=Libraries
   SUBMENU:=Networking
-  TITLE:=libuwsc
+  #TITLE:=Lightweight WebSocket client library based on libubox
+  TITLE:=Lightweight WebSocket client library
   DEPENDS:=+libubox
 endef
 
